@@ -1,0 +1,45 @@
+html,body {
+    font-family: 'Raleway', sans-serif;
+    padding: 1em 2em;
+    font-size: 18px;
+    background: #222;
+    color: #aaa
+  }
+  
+  h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+    text-align: center;
+  }
+  h1 { font-size: 3.5em; }
+  h2 {
+    color: #888;
+    font-size: 2em;
+  }
+  h3 {
+
+  }
+  p {
+    font-family: 'Raleway', sans-serif;
+    padding: 1em 2em;
+    font-size: 18px;
+    background: #222;
+    color: #aaa;
+    text-align: center;
+  }
+  #nav {
+      color: #222;
+      background-color: #aaa;
+      display: block;
+      margin: 0.5em;
+  }
+
+#portfolioBtn {
+      color: #222;
+      background-color: #aaa;
+  }
+#emailBtn {
+    color: #222;
+    background-color: #aaa;
+    display: block;
+}
