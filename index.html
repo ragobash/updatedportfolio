@@ -29,48 +29,83 @@
 <body>
 
     <!-- HEADER -->
-    <h1>
-        <section class="txt-rotate" data-period="1000" data-rotate='[ "Hey.", "Hi.", "Howdy." ]'></section>
-    </h1>
-    <h2>My name is Ryan Harris.</h2>
-    <p>I am a Front-End Web Developer leveraging a background in Fine Arts to build a unique and refreshing user experience. While earning a certificate in Full Stack Development from the University of Texas-Austin, I developed skills in HTML, CSS, JavaScript, and responsive web design. Being a conceptual artist with experience in sales and marketing, I have a history of communication and relationship-building, paired with a creative and agile approach to challenges. With each project, my aim is to best engage my audience for an impactful and dynamic user-experience. I am excited to apply these skills as part of a fast-paced, quality-driven team in order to build better experiences for our users!</p>
-    <div class="middle">
-        <a class="btn" href="https://github.com/ragobash">
-            <i class="fa fa-github"></i>
-        </a>
-        <a class="btn" href="https://www.linkedin.com/in/ryanharrishtx/">
-            <i class="fa fa-linkedin"></i>
-        </a>
-        <a class="btn" href="#">
-            <i class="fa fa-file"></i>
-        </a>
+    <div class="container col s12 m4 l2">
+        <div class="row">
+            <h1>
+                <section class="txt-rotate" data-period="1000" data-rotate='[ "Hey.", "Hi.", "Howdy." ]'></section>
+            </h1>
+            <h2>My name is Ryan Harris.</h2>
+        </div>
+        <div class="container col s12 m8 l4"><span class="flow-text">
+                <p>I am a Front-End Web Developer leveraging a background in Fine Arts to build a unique and refreshing
+                    user
+                    experience. While earning a certificate in Full Stack Development from the University of
+                    Texas-Austin, I
+                    developed skills in HTML, CSS, JavaScript, and responsive web design. Being a conceptual artist with
+                    experience in sales and marketing, I have a history of communication and relationship-building,
+                    paired with
+                    a creative and agile approach to challenges. With each project, my aim is to best engage my audience
+                    for an
+                    impactful and dynamic user-experience. I am excited to apply these skills as part of a fast-paced,
+                    quality-driven team in order to build better experiences for our users!</p>
+            </span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="middle">
+                <a class="btn" href="https://github.com/ragobash">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a class="btn" href="https://www.linkedin.com/in/ryanharrishtx/">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a class="btn" href="#">
+                    <i class="fa fa-file"></i>
+                </a>
+                <a class="btn" href="mailto:ragobash@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                </a>
+                <a class="btn" href="tel:+1-713-882-2363">
+                    <i class="fa fa-phone"></i>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <!-- PORTFOLIO -->
+        <h3 id="portfolio">Portfolio</h3>
+        <div id="mySlider"></div>
+        <div id="sliderNav">
+            <div id="sliderPrev" onclick="prevSlide();"><img class="slidebtn" src="assets/Images/prev-btn.png"></div>
+            <div id="sliderNext" onclick="nextSlide();"><img class="slidebtn" src="assets/Images/next-btn.png"></div>
+        </div>
+        <hr>
+        <h3 id="contact">Contact Me</h3>
         <a class="btn" href="mailto:ragobash@gmail.com">
             <i class="fa fa-envelope"></i>
         </a>
         <a class="btn" href="tel:+1-713-882-2363">
             <i class="fa fa-phone"></i>
-        </a>
-        <div class="divider"></div>
+            <!-- *************************SCRIPTS********************************* -->
+            <!-- Compiled and minified JavaScript -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-        <!-- PORTFOLIO -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous">
+            </script>
 
-        <!-- *************************SCRIPTS********************************* -->
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-
-        <!-- App JS -->
-        <script src="assets/scripts/app.js"></script>
+            <!-- App JS -->
+            <script src="assets/scripts/app.js"></script>
 </body>
 
 </html>
