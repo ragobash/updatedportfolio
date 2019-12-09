@@ -138,7 +138,7 @@ var giphy = new Slide(
 );
 
 var scraper = new Slide(
-	"Scraper New Network", 
+	"Scraper News Network", 
 	"News Scraping Tool", 
 	"assets/Images/scraper.png", 
   "https://intense-chamber-76790.herokuapp.com/articles",
